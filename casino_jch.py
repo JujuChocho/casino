@@ -7,7 +7,7 @@ sommeMisee = int(input("Quelle somme souhaitez-vous miser ? "))
 numTirage = (randint(0, 49))
 
 #pour les tests
-5numTirage = 5
+#numTirage = 5
 
 print("le numéro sorti est :" ,numTirage)
 print("-------------")
