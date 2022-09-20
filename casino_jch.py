@@ -8,7 +8,11 @@ numTirage = (randint(0, 49))
 
 #pour les tests
 #numTirage = 5
-
+print("-------------")
+print("-------------")
+print(">>>> les jeux sont faits !! <<<<")
+print("-------------")
+print("-------------")
 print("le numéro sorti est :" ,numTirage)
 print("-------------")
 
@@ -20,7 +24,7 @@ else :
     couleurTirage = int(1)
     print("couleur rouge")
 
-#couleur choisi
+#couleur choisie
 if (numChoisi % 2) == 0:
     couleurChoisi = int(2)
     print("couleur noire")
@@ -34,6 +38,7 @@ print("numéro choisi :" ,numChoisi)
 print("numéro sorti :" ,numTirage)
 print("-------------")
 
+#résultats des jeux
 if numChoisi == numTirage :
     print("vous avez gagné :" ,sommeMisee*3)
 elif (couleurTirage == couleurChoisi):
